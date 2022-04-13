@@ -1,0 +1,17 @@
+form {
+  display: flex;
+}
+
+input {
+  display: block;
+  height: 25px;
+  width: 120px;
+}
+label:not(:last-child) {
+  margin-right: 20px;
+}
+
+button {
+  height: 25px;
+  margin-top: auto;
+}

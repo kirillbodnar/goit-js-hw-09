@@ -35,11 +35,15 @@ function onStartBtnClick() {
     const currentDate = Date.now();
     const deltaDate = selectedDate - currentDate;
     const convertedDate = convertMs(deltaDate);
+    refs.startBtn.disabled = true;
+    refs.input.disabled = true;
 
     if (deltaDate < 0) {
       clearInterval(timer);
       calendar.clear();
       Notify.warning('The time has run out');
+      refs.startBtn.disabled = false;
+      refs.input.disabled = false;
       return;
     }
     displayDate(convertedDate);
