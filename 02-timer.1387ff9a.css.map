@@ -1,1 +1,0 @@
-{"version":3,"sources":["02-timer.css"],"names":[],"mappings":"AAIA,YACE,YACF","file":"02-timer.1387ff9a.css","sourceRoot":"../src","sourcesContent":["timer {\n  display: flex;\n}\n\nfield {\n  display: flex;\n}\n"]}
